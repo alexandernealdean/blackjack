@@ -1,0 +1,20 @@
+Morala's Dice
+-------------------------
+-------------------------
+
+This is Morala's Dice it is a game like 21 just with dice.
+
+1) When you start the server it will start listening for clients.
+2) Afterwards when you start a new client host you you will be prompted by the server to provide a name.
+3) Once you type your name and hit enter the server will ask you to ready up (you can do so by typing 'r' and pressing enter)
+4) The above will need to happen for every user on the server before the game will start.
+5) Once everyone has readied instructions will pop up explaining how to play the game.
+6) Basically the goal is to get as close as you can to 21 without going over.
+7) You can either type 'h' or 's' to perform an action
+    -Typing 'h' and pressing enter will let you "HIT" meaning you roll 2 six sided dice and their total is added to your score
+    -Typing 's' and pressing enter will make you "STAY" meaning you stop rolling
+8) After all players have stayed or someone busts (goes over 21) the game will decide based on your scores who is the winner.
+9) Afterwards the game is over and a new game will automatically start.
+
+NOTES: New users cannot join when a game that has already started.
+       Also the server must be restarted when a user leaves (ERROR will pop up when user leaves).
